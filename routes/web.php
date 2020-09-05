@@ -13,5 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('gmaps', 'HomeController@gmaps');
 
+
+
+
+
+
+Auth::routes();
+
+Route::get('/', 'HomeController@index')->name('home');
