@@ -18,6 +18,7 @@ class CreatePharmacyTable extends Migration
             $table->string('name', 100);
             $table->string('phone', 15);
             $table->string('address', 300);
+            $table->string('photo', 100)->nullable();
             $table->string('lat');
             $table->string('lng');
 
